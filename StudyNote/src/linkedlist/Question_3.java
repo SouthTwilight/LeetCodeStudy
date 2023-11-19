@@ -12,7 +12,7 @@ import java.util.List;
  * @ToDo: 给定一个头节点为 head 的单链表用于记录一系列核心肌群训练编号，请将该系列训练编号 倒序 记录于链表并返回。
  * <p>
  * 示例：输入：head = [1,2,3,4,5]
- * 输出：[5,4,3,2,1]
+ *      输出：[5,4,3,2,1]
  */
 public class Question_3 {
 
@@ -61,22 +61,7 @@ public class Question_3 {
     }
 
 
-    public static class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     public static void main(String[] args) {
         Question_3 question_3 = new Question_3();
