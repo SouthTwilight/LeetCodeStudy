@@ -16,6 +16,14 @@ import java.util.List;
  */
 public class Question_3 {
 
+    /**
+     * @Author: SouthTwilight
+     * @Email: SouthTwilight@outlook.com
+     * @Datetime: 2023/11/19 15:49
+     * @Param: {@link ListNode} head
+     * @Return: {@link ListNode}
+     * @TODO: 头插法
+     **/
     public ListNode trainingPlan(ListNode head) {
         if (head==null || head.next==null) return head;
         ListNode newHead = new ListNode();
